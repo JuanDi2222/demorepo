@@ -37,3 +37,9 @@ export default async function Page({
     </div>
   );
 }
+
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
